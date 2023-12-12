@@ -1,0 +1,104 @@
+<html>
+    <header>
+        <title>
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </header>
+    <body>
+        <form class="form">
+            <div class="header">
+                <h1>Order Form</h1>
+                <div>
+                    <label for="dateInput">Date:</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="productSelect">
+                <label for="product">Product:</label>
+                <select id="products">
+                    <option>Products from GPS-ware</option>
+                    <option>Products from GPS-ware</option>
+                    <option>Products from GPS-ware</option>
+                    <option>Products from GPS-ware</option>
+                    <option>Products from GPS-ware</option>
+                </select>
+                <select>
+                    <option>Quantity</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <input class="productInput" type="text">
+                <label for="tax">Tax (5%)</label>
+                <input class="productInput">
+                <label for="shipping">Shipping</label>
+                <input id="standard" type="radio">
+                <label for="standard">Standard (3-5 days) $7.95</label>
+                <input class="productInput" type="text">
+                <input id="express" type="radio">
+                <label for="express">Express (2 days) $9.95</label>
+                <input id="nextDay" type="radio">
+                <label for="nextDay">Nexy Day (1 day) $12.95</label>
+                <label for="total">TOTAL: </label>
+                <input id="total" name="total" class="productInput" type="text">
+            </div>
+            <div class="shippingAddress">
+                <label for="sname">Name: </label>
+                <input type="text">
+                <label for="sstreet">Street: </label>
+                <input type="text">
+                <label for="scity">City: </label>
+                <input type="text">
+            </div>
+            <div class="billingAddress">
+                <input id="billcb" name="billcb" type="checkbox">
+                <label for="billcb">Same as Shipping Address</label>
+                <input id="creditcb" name="creditcb" type="checkbox">
+                <label for="creditcb">Bill me now with my credit card.</label>
+                <label for="bname">Name: </label>
+                <input id="bname" name="bname" type="text">
+                <label for="bstreet">Street: </label>
+                <input id="bstreet" name="bstreet" type="text">
+                <label for="bcity">City: </label>
+                <input id="bcity" name="bcity" type="text">
+            </div>
+            <div class="creditCardInfo">
+                <label for="cname">Name: </label>
+                <input id="cname" name="cname" type="text">
+                <label for="ccard">Card: </label>
+                <input id="american" name="ccard" type="radio">
+                <label for="american">American Express</label>
+                <input id="citibank" name="ccard" type="radio">
+                <label for="citibank">CitiBank</label>
+                <input id="dinersclub" name="ccard" type="radio">
+                <label for="dinersclub">Diner's Club</label>
+                <input id="discover" name="ccard" type="radio">
+                <label for="discover">Discover</label>
+                <input id="mastercard" name="ccard" type="radio">
+                <label for="mastercard">MasterCard</label>
+                <input id="visa" name="ccard" type="radio">
+                <label for="visa">Visa</label>
+                <label for="cnumber">Number: </label>
+                <input id="cnumber" name="cnumber" type="text">
+                <label for="expiration">Expiration: </label>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <p>/</p>
+                <select>
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                </select>
+            </div>
+        </form>
+    </body>
+</html>
